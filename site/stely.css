@@ -1,0 +1,116 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.logo {
+  margin: 0;
+  padding: 0 15px;
+  width: 100px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  background-color: transparent;
+  border: none;
+}
+
+
+.nav-list {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin: 0 10px;
+  
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-buttons {
+  float: right;
+  padding:30px;
+ 
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  color: rgb(0, 0, 0);
+  background-color: #FFD700;
+  border-radius: 20px; 
+  border: none; 
+}
+
+.header {
+  text-align: center;
+  padding: 60px 20px;
+  background-image: url(OIP.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:400px; ;
+  width: 100%;
+}
+
+.header h1 {
+  margin-bottom: 20px;
+  color: beige;
+}
+
+.header button {
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 20px; 
+  border: none; 
+}
+
+
+.about {
+    padding: 20px;
+    text-align: center;
+    display:flex ;
+    align-items: center;
+    justify-content:center ;
+}
+
+.about p {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60%;
+    vertical-align: middle;
+
+}
+
+.about img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  margin-top: 40px;
+}
